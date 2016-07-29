@@ -1,0 +1,181 @@
+<!-- htmlのバージョンの定義 -->
+<!DOCTYPE html>
+<html>
+<!-- head部の開始 -->
+    <head>
+        <!-- 文字セットの定義 -->
+            <meta charset="UTF-8">
+        <!-- タイトル -->
+            <title>HTML1</title>
+   
+        <!-- bootstrapのデザインを読み込む -->
+        <!-- style.cssを読み込む -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/hquestion.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+<!-- head部の終了 -->
+
+<!-- body部の開始 -->
+    <body>
+    
+        <div class="header row">
+            <div class="col-md-1"></div>
+            <h1 class="col-md-3">HTML練習帳1</h1>
+        </div>
+        <div class="container">
+            <div class="tmenu navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav row">
+                    <li><a href="index.html">TOP</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HTML練習帳<span class="caret"></span></a>
+                        <ul class="dropdown-menu scrollable-menu" role="menu">        
+                            <li><a href="html1.html">HTML練習帳1</a></li>
+                            <li><a hreg="html2.html">HTML練習帳2</a></li>
+                            <li><a href="html3.html">HTML練習帳3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CSS練習帳<span class="caret"></span></a>
+                        <ul class="dropdown-menu scrollable-menu" role="menu">        
+                            <li><a href="#">CSS練習帳1</a></li>
+                            <li><a hreg="#">CSS練習帳2</a></li>
+                            <li><a href="#">CSS練習帳3</a></li>
+                        </ul>                        
+                    </li>
+                    <li><a href="#">私の作品集</a></li>
+                    <li><a href="#">自由帳</a></li>
+                </ul>
+            </div>
+            
+        <hr>
+        
+        <h2>⓵－1</h2>
+            <u>下の文章の「栗太郎」というタイトルを見出しにしましょう(*'▽')</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            
+            <table class="panel panel-successs questions">
+                <td>
+                今日は皆さん私の話を聞くために集まってくれてありがとうございます。
+                今日はみなさん、私の話を聞くために集まってくれてありがとうございます。
+                私は数年間、この物語を語る活動をしています。
+                それでは聞いてください。
+                栗太郎
+                昔々、あるところにおじいさんとおばあさんがいました。
+                ある日、おじいさんは山へ芝刈りに、おばあさんは川へ洗濯にでかけました。
+                おばあさんが川で洗濯をしていると、川上のほうからどんぶらこ、どんぶらこと大きな栗がながれてきました！
+                </td>
+            </table>
+            
+            
+            <!-- 問題はここまで！　-->
+            <input type="button" class="question1" value="ヒント" onclick="question1();"/>
+            <div id="output1"></div>
+            
+            
+            <hr>
+            <br><br>
+            
+            
+            
+        <h2>⓵ー２</h2>
+            <u>下の文章の中で「おじいさん」と書いてある部分を太字にしましょう♪</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            <table class="panel panel-successs questions">
+                <td>
+                    昔々、あるところにおじいさんとおばあさんがいました。
+                    ある日、おじいさんは山へ芝刈りに、おばあさんは川へ洗濯にでかけました。
+                    おばあさんが川で洗濯をしていると、川上のほうからどんぶらこ、どんぶらこと大きな栗がながれてきました！
+                </td>
+            </table>
+            <!-- 問題はここまで！ -->
+            
+            
+            <input type="button" class="question2" value="ヒント" onclick="question2();"/>
+            <div id="output2"></div>
+    
+        <hr>
+        <br><br>
+            
+            
+            
+        <h2>⓵ー３</h2>
+        <u>下の文章の中で「おばあさん」と書いてある部分に下線をつけましょう♪</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            <table class="panel panel-successs questions">
+                <td>
+                    おばあさんは「まぁ！なんて大きな栗！」と驚きました。
+                    せっかくなので、その大きな栗を持って帰っておじいさんと一緒に食べようと思いましたが、栗はとてもイガイガしているので
+                    おばあさん一人で運ぶことができません。
+                </td>
+            </table>
+            <!-- 問題はここまで！ -->
+            
+            
+            <input type="button" class="question3" value="ヒント" onclick="question3();"/>
+            <div id="output3"></div>
+        
+        <hr>
+        <br><br>
+            
+            
+            
+        <h2>⓵ー４</h2>
+        <u>下の文章の中で好きな位置に改行を入れましょう♪（改行というのは、文を区切って、次の行からはじめることをいいます。）</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            <table class="panel panel-successs questions">
+                <td>
+                    栗は大きくてとてもイガイガしているので、おばあさん一人で運ぶことができません。おばあさんが、どうしたものかと困り果てている。
+                    と、そこに一匹の犬があらわれました。犬はとてもおなかを空かせており、かわいそうな声をだしながらおばあさんのほうへとにじり寄っ
+                    てきました。やさしいおばあさんはこの犬を哀れに思い、おやつに持っていたキビ団子をこの犬に一つあげました。するとこの犬もの
+                    すごいいきおいでガツガツとキビ団子を食べ、そして「キャイン」と大きな声を出して鳴きました。
+                </td>
+            </table>
+            <!-- 問題はここまで！ -->
+            
+            
+            <input type="button" class="question4" value="ヒント" onclick="question4();"/>
+            <div id="output4"></div>
+        
+         
+        <hr>
+        <br><br>
+            
+            
+            
+        <h2>⓵ー５</h2>
+        <u>下の文章を好きなところで区切って3つの段落にわけましょう。（改行というのは、文を区切って、次の行からはじめることをいいます。）</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            <table class="panel panel-successs questions">
+                <td>
+                    「キャイン」という、犬の大きな鳴き声があたりいちめんに響き渡りました。
+                    おばあさんはびっくりしてしばらくキョトンとしてしましまいた。
+                    次の瞬間、犬はなんと2本の足で立ち上がり、勇ましい声でおばあさんに語りかけました。
+                    「媼（おうな）よ、私にキビ団子を与えてくれてありがとう！この恩に報いるため、そなたを我が城へ招待しよう」
+                    おばあさんは、それはもうびっくりしてしまって、口をあけたままパクパクしていました。
+                    犬はかまいもせずに、ひょい、とおばあさんを担ぎ上げ、風のように走り出しました。犬はおばあさんを担いだまま野原や林の中をぐんぐんと走り抜けました。
+
+                </td>
+            </table>
+            <!-- 問題はここまで！ -->
+            
+            
+            <input type="button" class="question5" value="ヒント" onclick="question5();"/>
+            <div id="output5"></div>
+        
+            <br><br><br><br>
+            
+            <h3><a href="HTML2.html">次の問題に進む</a></a></h3>
+            <h3><a href="index.html">TOPに戻る</a></a></h3>
+        
+        
+        
+        </body>
+        </html>
