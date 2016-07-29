@@ -1,0 +1,138 @@
+<!-- htmlのバージョンの定義 -->
+<!DOCTYPE html>
+<html>
+<!-- head部の開始 -->
+    <head>
+        <!-- 文字セットの定義 -->
+            <meta charset="UTF-8">
+        <!-- タイトル -->
+            <title>HTML2</title>
+   
+        <!-- bootstrapのデザインを読み込む -->
+        <!-- style.cssを読み込む -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/hquestion2.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+<!-- head部の終了 -->
+
+<!-- body部の開始 -->
+    <body>
+    
+        <div class="header row">
+            <div class="col-md-1"></div>
+            <h1 class="col-md-3">HTML練習帳2</h1>
+        </div>
+        <div class="container">
+            <div class="tmenu navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav row">
+                    <li><a href="index.html">TOP</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HTML練習帳<span class="caret"></span></a>
+                        <ul class="dropdown-menu scrollable-menu" role="menu">        
+                            <li><a href="html1.html">HTML練習帳1</a></li>
+                            <li><a href="html2.html">HTML練習帳2</a></li>
+                            <li><a href="html3.html">HTML練習帳3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CSS練習帳<span class="caret"></span></a>
+                        <ul class="dropdown-menu scrollable-menu" role="menu">        
+                            <li><a href="#">CSS練習帳1</a></li>
+                            <li><a href="#">CSS練習帳2</a></li>
+                            <li><a href="#">CSS練習帳3</a></li>
+                        </ul>                        
+                    </li>
+                    <li><a href="#">私の作品集</a></li>
+                    <li><a href="#">自由帳</a></li>
+                </ul>
+            </div>
+            
+        <hr>
+        
+        <h2>②－1</h2>
+            <u>自分の好きな画像をこの四角の中に挿入しましょう♪</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            
+            <table class="panel panel-successs questions">
+                <td>
+                <p>ここに画像を挿入してください。</p>
+                </td>
+            </table>
+            
+            
+            <!-- 問題はここまで！　-->
+            <input type="button" class="question1" value="ヒント" onclick="question1();"/>
+            <div id="output1"></div>
+            
+            
+            <hr>
+            <br><br>
+            
+        <h2>②－２</h2>
+            <u>下の文章の中の「Google」という文字をみつけて、Googleへのリンクを貼りましょう♪</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            
+            <table class="panel panel-successs questions">
+                <td>
+                Glegoo Gelgugu Goggle Googie Googla Googoo Geeglo Golegle G00gle Goog1e Gelgoo Gogle
+                Gogle Glegoo Gelgugu G00gle Googla Goggle Googie Goog1e Googla Googoo Geeglo Google 
+                Golegle Goog1e Gelgoo Gelgugu G00gle Googla Goggle Googie Googla Googoo Geeglo Golegle 
+                </td>
+            </table>
+            
+            
+            <!-- 問題はここまで！　-->
+            <input type="button" class="question2" value="ヒント" onclick="question2();"/>
+            <div id="output2"></div>
+            
+            
+            <hr>
+            <br><br>
+            
+            <h2>②－３</h2>
+            <u>下の文章の中の「Top」という文字をみつけて、Topページへのリンクを貼りましょう♪</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            
+            <table class="panel panel-successs questions">
+                <td>
+                Tep Tap Toop  Tip Toip Tup Top Teep Tor
+                </td>
+            </table>
+            
+            
+            <!-- 問題はここまで！　-->
+            <input type="button" class="question3" value="ヒント" onclick="question3();"/>
+            <div id="output3"></div>
+            
+            
+            <hr>
+            <br><br>
+            
+            <h2>②－４</h2>
+            <u>自分の好きなYoutubeの動画をこの四角の中に挿入しましょう♪</u>
+            <br><br>
+            <!-- ここから問題！！　-->
+            
+            <table class="panel panel-successs questions">
+                <td>
+                ここに動画を挿入してください。
+                </td>
+            </table>
+            
+            
+            <!-- 問題はここまで！　-->
+            <input type="button" class="question4" value="ヒント" onclick="question4();"/>
+            <div id="output4"></div>
+            
+            
+            <hr>
+            <br><br>
+        </div>
+    </body>
+</html>

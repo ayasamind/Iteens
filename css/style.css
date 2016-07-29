@@ -8,7 +8,18 @@ nav dt{width:20%;float:left;
 	float: left;
 	
 }
+
+table.plofile{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+} 
  
+table.plofile > p{
+  margin-left: 10px;
+}
+ 
+
 #p-photo{
 	padding-left: 50px;
 } 
